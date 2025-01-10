@@ -49,7 +49,7 @@ export const ProductForm = () => {
           control={form.control}
           name="name"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className="mb-4">
               <FormLabel>Name</FormLabel>
               <FormControl>
                 <Input className="mb-4" placeholder="Name" {...field} />
